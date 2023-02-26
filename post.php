@@ -1,6 +1,6 @@
 <!-- Inclusão do cabeçalho -->
 <?php
-    include_once("templates/header.php");
+    include_once("templates/headerPost.php");
 
     if(isset($_GET['id'])) {
         $postId = $_GET['id'];
@@ -19,7 +19,7 @@
         <h1 id="main-title"><?= $currentPost['title'] ?></h1>
         <p id="post-description"><?= $currentPost['description'] ?></p>
         <div class="img-container">
-            <img src="<?= $BASE_URL ?>/img/<?= $currentPost['img'] ?>" alt="<?= $currentPost['title'] ?>">
+            <img src="../img/<?= $currentPost['img'] ?>" alt="<?= $currentPost['title'] ?>">
         </div>
         <p class="post-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non nemo quibusdam quisquam eveniet quasi quos doloremque, corporis porro veritatis necessitatibus atque aperiam perferendis corrupti sit in enim possimus quaerat dignissimos.
         Repellat ab quaerat itaque accusamus minima, totam asperiores vel veniam officiis dicta! Corporis tempore quos delectus, maiores consectetur incidunt assumenda repellendus nam reprehenderit magnam minus animi corrupti, possimus saepe cumque!

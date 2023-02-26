@@ -21,15 +21,15 @@
 </head>
 <body>
     <header> 
-        <a href="<?= $BASE_URL ?>" id="logo">
-        <img src="<?= $BASE_URL ?>/img/logo.svg" alt="logo blog codar">
+        <a href="../index.php" id="logo">
+        <img src="../img/logo.svg" alt="logo blog codar">
         </a>
         <nav>
             <ul id="navbar">
-                <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
+                <li><a href="../index.php" class="nav-link">Home</a></li>
                 <li><a href="#" class="nav-link">Categorias</a></li>
                 <li><a href="#" class="nav-link">Sobre</a></li>
-                <li><a href="<?= $BASE_URL ?>contact.php" class="nav-link">Contato</a></li>
+                <li><a href="../contact.php" class="nav-link">Contato</a></li>
             </ul>
         </nav>
     </header>
